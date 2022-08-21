@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "TEST_LASOT",
+            "type": "python",
+            "request": "launch",
+            "program": "tools/test.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "unicorn_sot",
+                "unicorn_track_tiny",
+                "--dataset",
+                "lasot",
+                "--threads",
+                "0"
+            ],
+        }
+    ]
+}
